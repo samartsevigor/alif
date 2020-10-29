@@ -1,5 +1,7 @@
 const express = require('express')
 const dishes = require('./dishes.js')
+const dotenv = require('dotenv')
+dotenv.config()
 
 const server = express()
 const PORT = process.env.PORT || 8000
