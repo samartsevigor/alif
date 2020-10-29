@@ -1,10 +1,15 @@
 const express = require('express')
 const dishes = require('./dishes.js')
 const dotenv = require('dotenv')
+const cors = require('cors')
 dotenv.config()
+
+
 
 const server = express()
 const PORT = process.env.PORT || 8000
+server.use(cors())
+
 server.get('/api/dishes', (req, res) => {
   res.json(dishes)
 })

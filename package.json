@@ -5,10 +5,10 @@
   "author": "Samartsev Igor <igorsamartsev@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently \"yarn run client\" \"yarn run server\"",
-    "start": "concurrently \"yarn run client\" \"yarn run server\""
+    "dev": "concurrently \"yarn run client\" \"yarn run server\""
   },
   "dependencies": {
     "concurrently": "^5.3.0",
