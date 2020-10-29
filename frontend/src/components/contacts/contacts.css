@@ -1,0 +1,10 @@
+.findus{
+    padding: 40px;
+    background: coral;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+
+}

@@ -1,0 +1,17 @@
+.top-bar{
+    background-color: coral;
+    padding: 2px 0;
+    color: #fff;
+}
+.top-bar__contacts{
+    font-size: 12px;
+}
+.top-bar__contacts span:first-child{
+    margin-right: 30px;
+}
+.top-bar__contacts span i {
+    margin-right: 10px;
+}
+.top-bar__social a:first-child{
+    margin-right: 10px;
+}

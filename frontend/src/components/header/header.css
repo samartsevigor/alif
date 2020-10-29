@@ -1,0 +1,22 @@
+
+header{
+    font-family: 'Lato', sans-serif;
+    padding: 24px 0;
+}
+.logo img{
+    height: 70px;
+}
+.top-nav{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.top-nav__item{
+    color: #5f5f5f;
+    transition: .6s;
+}
+.top-nav__item:hover{
+    color: #eaba02
+}
+.top-nav__item:not(:last-child){
+    margin-right: 30px;
+}

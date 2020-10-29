@@ -1,0 +1,17 @@
+{
+  "name": "cafe-alif",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Samartsev Igor <igorsamartsev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"yarn run client\" \"yarn run server\""
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}

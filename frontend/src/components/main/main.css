@@ -1,0 +1,18 @@
+.hero{
+    font-family: "Kristi", sans-serif;
+    height: 80vh;
+    background: url("./hero.jpg") fixed no-repeat center/cover;
+}
+.hero-content{
+    text-align: center;
+    color: #fff;
+    background: #0005;
+    padding: 40px 60px;
+}
+.hero-content__title{
+    font-size: 42px;
+}
+.hero-content__desc{
+    font-size: 86px;
+    font-family: 'Open Sans', sans-serif;
+}

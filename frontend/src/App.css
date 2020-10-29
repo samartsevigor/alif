@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.d-flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.content-wrap{
+  padding: 50px 0;
+}
