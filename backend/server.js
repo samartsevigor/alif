@@ -22,13 +22,6 @@ server.get('/api/dishes/:id', (req, res) => {
 
 if (process.env.NODE_ENV === 'production'){
   server.use(express.static(path.join(path.resolve(), '/frontend/build')))
-  server.get('*', (req, res) => {
-    res.sendFile(path.resolve(path.resolve(), 'frontend', 'build', 'index.html'))
-  })
-} else {
-  server.get('/', (req, res) => {
-    res.send('app is running')
-  })
 }
 
 
